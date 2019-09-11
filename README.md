@@ -44,3 +44,6 @@ For more installation notes, refer to the [Install gulp and Bower](#install-gulp
 * bower install
 * change 'devUrl' in manifest.json - assets/manifest.json
 * run 'gulp' and 'gulp watch'
+
+##Production##
+* --production
