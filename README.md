@@ -39,21 +39,13 @@ For more installation notes, refer to the [Install gulp and Bower](#install-gulp
 * Two menus: top navigation menu and footer information menu.
 * Several custom page templates are included in the package.
 
-###Installation###
-* npm install
-* bower install
-* change 'devUrl' in manifest.json - assets/manifest.json
-* run 'gulp' and 'gulp watch'
-
-##Production##
-* --production
-
 ####
-How to fix "ReferenceError: primordials is not defined" error // Fix Node.js 12 latest version on gulp issue
+If you are using Node latest version // How to fix "ReferenceError: primordials is not defined" error // Fix Node.js 12 latest version on gulp issue
 
 https://timonweb.com/posts/how-to-fix-referenceerror-primordials-is-not-defined-error/
 
 1. In the same directory where you have package.json create an npm-shrinkwrap.json file with the following contents:
+
 {
   "dependencies": {
     "graceful-fs": {
@@ -62,4 +54,13 @@ https://timonweb.com/posts/how-to-fix-referenceerror-primordials-is-not-defined-
   }
 }
 2. Run npm install, and don't worry, it'll update npm-shrinkwrap.json with a bunch of content.
+
+###Installation###
+* npm install
+* bower install
+* change 'devUrl' in manifest.json - assets/manifest.json
+* run 'gulp' and 'gulp watch'
+
+##Production##
+* --production
 
